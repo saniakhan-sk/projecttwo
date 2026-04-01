@@ -1,0 +1,123 @@
+/* ===== BODY WITH BACKGROUND IMAGE ===== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("india.jpeg");   /* Change to your image name */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(to right, #ff9933, #ff5722);
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    background: linear-gradient(to right, #138808, #0d47a1);
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+}
+
+/* ===== SECTIONS ===== */
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    margin: 40px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    color: #ff5722;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #138808;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* ===== IMAGES ===== */
+img {
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* ===== FORM INPUTS ===== */
+input, textarea {
+    border: 2px solid #ff9933;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+}
+
+/* ===== SUBMIT BUTTON ===== */
+input[type="submit"] {
+    background: linear-gradient(to right, #ff9933, #ff5722);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: linear-gradient(to right, #0d47a1, #138808);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: white;
+}
